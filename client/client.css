@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue ;
+}
+input{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    height: 25px;
+    margin: 10px;
+    background-color: lightblue;
+}
+#btnsContainer{
+    display: flex;
+}
+#goalBox{
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+#background{
+    background-color: lightgrey;
+    border: outset;
+    display: flex;
+    flex-direction: column;
+
+}
+.mainButtons{
+    margin: 5px;
+    border: outset 4px;
+}
+.mainButtons:hover{
+    border: inset 4px;
+}
+#mainForm{
+    border: outset;
+    background-color: lightgray;
+    margin: 10px;
+}
+.goalText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+.twoButtons{
+    height: 150px;
+    width: 150px;
+    font-size: larger;
+    border: outset;
+}
+.twoButtons:hover{
+    border: inset;
+}
+#goalSetter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px  black;
+    height: 1000px;
+    border: outset;
+    background-image: url(https://images.pexels.com/photos/163444/sport-treadmill-tor-route-163444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+}

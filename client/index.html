@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="client.css">
+  </head>
+  <body class="container">
+    <div id="buttonsContainer">
+      <button class="twoButtons" id="complimentButton">Get a compliment</button>
+      <button class="twoButtons" id="fortuneButton">Get Your Fortune</button>
+    </div>
+    <section id="goalSetter">
+
+      <h1>Goal Setter 2000</h1>
+      <form id="mainForm">
+        <input
+        type="text"
+        id="goal"
+        placeholder="What's your goal?"
+        > 
+        <input
+        type="text"
+        id="type"
+        placeholder="What type of goal is it?"
+        > 
+        <input
+        type="text"
+        id="reward"
+        placeholder="What will be your carrot?"
+        > 
+        <input
+        type="number"
+        id="quantity"
+        placeholder="How many rewards?"
+        />
+        <button class="mainButtons" id ="goalButton" type="submit">Add Goal</button>
+      </form>
+      <div id="goalBox"></div>
+    </section>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
